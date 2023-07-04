@@ -14,7 +14,6 @@
 # update\_fastlane
 
 default_platform(:ios)
-
 platform :ios do
 
   desc "利用Fastland实现自动化打包"
