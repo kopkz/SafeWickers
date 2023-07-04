@@ -1,0 +1,204 @@
+
+/* Class = "UILabel"; text = "Setting Item"; ObjectID = "0pK-4h-1fc"; */
+"0pK-4h-1fc.text" = "Setting Item";
+
+/* Class = "UIButton"; normalTitle = "  Filter  "; ObjectID = "1G9-v2-o3m"; */
+"1G9-v2-o3m.normalTitle" = "  Filter  ";
+
+/* Class = "UIButton"; normalTitle = "More..."; ObjectID = "31i-uQ-qB9"; */
+"31i-uQ-qB9.normalTitle" = "More...";
+
+/* Class = "UITextField"; placeholder = "Beach 2"; ObjectID = "3bv-aw-SJm"; */
+"3bv-aw-SJm.placeholder" = "Beach 2";
+
+/* Class = "UILabel"; text = "Port Nearby"; ObjectID = "4eY-Op-kI2"; */
+"4eY-Op-kI2.text" = "Port Nearby";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4z8-Do-MeY"; */
+"4z8-Do-MeY.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "65R-tj-cgS"; */
+"65R-tj-cgS.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "90r-wO-bwu"; */
+"90r-wO-bwu.text" = "Label";
+
+/* Class = "UILabel"; text = "UV"; ObjectID = "92o-dI-cuQ"; */
+"92o-dI-cuQ.text" = "UV";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Da-DL-hel"; */
+"9Da-DL-hel.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9Db-1U-DpA"; */
+"9Db-1U-DpA.text" = "Label";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "9dY-VQ-xXW"; */
+"9dY-VQ-xXW.text" = "Distance";
+
+/* Class = "UIButton"; normalTitle = "SEARCH"; ObjectID = "B70-ou-sBB"; */
+"B70-ou-sBB.normalTitle" = "SEARCH";
+
+/* Class = "UIButton"; normalTitle = "More..."; ObjectID = "CHn-41-Qfo"; */
+"CHn-41-Qfo.normalTitle" = "More...";
+
+/* Class = "UILabel"; text = "FIND SAFE BEACH"; ObjectID = "Caw-qJ-wla"; */
+"Caw-qJ-wla.text" = "FIND SAFE BEACH";
+
+/* Class = "UILabel"; text = "Port"; ObjectID = "DyD-39-mvI"; */
+"DyD-39-mvI.text" = "Port";
+
+/* Class = "UILabel"; text = "Tide Height"; ObjectID = "G85-im-KPh"; */
+"G85-im-KPh.text" = "Tide Height";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Gxq-f6-iGe"; */
+"Gxq-f6-iGe.text" = "Title";
+
+/* Class = "UILabel"; text = "Risk Level"; ObjectID = "Hh2-yn-6tC"; */
+"Hh2-yn-6tC.text" = "Risk Level";
+
+/* Class = "UILabel"; text = "Swimming"; ObjectID = "IOB-Cr-Ymq"; */
+"IOB-Cr-Ymq.text" = "Swimming";
+
+/* Class = "UILabel"; text = "Select the beach activity:"; ObjectID = "IvQ-LU-gbx"; */
+"IvQ-LU-gbx.text" = "Select the beach activity:";
+
+/* Class = "UILabel"; text = "VS"; ObjectID = "K8f-e5-nLl"; */
+"K8f-e5-nLl.text" = "VS";
+
+/* Class = "UILabel"; text = "Setting Value"; ObjectID = "Nxr-yR-OaJ"; */
+"Nxr-yR-OaJ.text" = "Setting Value";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "OAd-2p-ZmR"; */
+"OAd-2p-ZmR.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Meaning"; ObjectID = "ObC-wC-yGQ"; */
+"ObC-wC-yGQ.text" = "Meaning";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "Ogv-3J-6Cy"; */
+"Ogv-3J-6Cy.text" = "About us";
+
+/* Class = "UITabBarItem"; title = "Beach signal"; ObjectID = "PDO-VB-Fja"; */
+"PDO-VB-Fja.title" = "Beach signal";
+
+/* Class = "UILabel"; text = "Lifeguard"; ObjectID = "QtP-Lw-IM1"; */
+"QtP-Lw-IM1.text" = "Lifeguard";
+
+/* Class = "UIButton"; normalTitle = "Give rating"; ObjectID = "QzP-zs-D7b"; */
+"QzP-zs-D7b.normalTitle" = "Give rating";
+
+/* Class = "UILabel"; text = "Tide"; ObjectID = "Rks-Q5-zYo"; */
+"Rks-Q5-zYo.text" = "Tide";
+
+/* Class = "UILabel"; text = "Lifegurad Patroled"; ObjectID = "T5m-9r-tjz"; */
+"T5m-9r-tjz.text" = "Lifegurad Patroled";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UW9-ih-PiW"; */
+"UW9-ih-PiW.text" = "Label";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "UfQ-uH-KaU"; */
+"UfQ-uH-KaU.text" = "Distance";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xaz-YO-xGH"; */
+"Xaz-YO-xGH.text" = "Label";
+
+/* Class = "UILabel"; text = "Wind Speed"; ObjectID = "Xd5-AY-Pag"; */
+"Xd5-AY-Pag.text" = "Wind Speed";
+
+/* Class = "UILabel"; text = "Tide State"; ObjectID = "Xlj-KZ-BAP"; */
+"Xlj-KZ-BAP.text" = "Tide State";
+
+/* Class = "UITextField"; placeholder = "Beach 1"; ObjectID = "YCX-1f-0KQ"; */
+"YCX-1f-0KQ.placeholder" = "Beach 1";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Search";
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "ahh-Op-gqB"; */
+"ahh-Op-gqB.text" = "Temperature";
+
+/* Class = "UIBarButtonItem"; title = "Select Language"; ObjectID = "apY-Ya-6rW"; */
+"apY-Ya-6rW.title" = "Select Language";
+
+/* Class = "UILabel"; text = "Wind Speed"; ObjectID = "b2P-UF-ueO"; */
+"b2P-UF-ueO.text" = "Wind Speed";
+
+/* Class = "UILabel"; text = "Beach Name"; ObjectID = "cNk-aE-k3v"; */
+"cNk-aE-k3v.text" = "Beach Name";
+
+/* Class = "UITabBarItem"; title = "Compare"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Compare";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "clV-13-ZDp"; */
+"clV-13-ZDp.text" = "About Us";
+
+/* Class = "UILabel"; text = "9 m/s"; ObjectID = "dQy-IJ-GUe"; */
+"dQy-IJ-GUe.text" = "9 m/s";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eqQ-mT-Yx7"; */
+"eqQ-mT-Yx7.text" = "Label";
+
+/* Class = "UISegmentedControl"; fPa-BI-Vhc.segmentTitles[0] = "Swimming"; ObjectID = "fPa-BI-Vhc"; */
+"fPa-BI-Vhc.segmentTitles[0]" = "Swimming";
+
+/* Class = "UISegmentedControl"; fPa-BI-Vhc.segmentTitles[1] = "Surfing"; ObjectID = "fPa-BI-Vhc"; */
+"fPa-BI-Vhc.segmentTitles[1]" = "Surfing";
+
+/* Class = "UISegmentedControl"; fPa-BI-Vhc.segmentTitles[2] = "Boating"; ObjectID = "fPa-BI-Vhc"; */
+"fPa-BI-Vhc.segmentTitles[2]" = "Boating";
+
+/* Class = "UIButton"; normalTitle = "Use Current Location"; ObjectID = "fWf-ND-GPK"; */
+"fWf-ND-GPK.normalTitle" = "Use Current Location";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gC0-HD-zUD"; */
+"gC0-HD-zUD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jfP-5E-5xo"; */
+"jfP-5E-5xo.text" = "Label";
+
+/* Class = "UILabel"; text = "Location or beach name:"; ObjectID = "mdJ-EC-4HQ"; */
+"mdJ-EC-4HQ.text" = "Location or beach name:";
+
+/* Class = "UILabel"; text = "Rating"; ObjectID = "med-Ec-zqr"; */
+"med-Ec-zqr.text" = "Rating";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "pFo-1p-iMc"; */
+"pFo-1p-iMc.text" = "Humidity";
+
+/* Class = "UILabel"; text = "Pressure"; ObjectID = "pTB-iW-siG"; */
+"pTB-iW-siG.text" = "Pressure";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qDT-bz-mrt"; */
+"qDT-bz-mrt.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "qcq-6Y-rsh"; */
+"qcq-6Y-rsh.text" = "Name";
+
+/* Class = "UILabel"; text = "UV"; ObjectID = "r7D-m4-cPx"; */
+"r7D-m4-cPx.text" = "UV";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "vgf-km-ewt"; */
+"vgf-km-ewt.title" = "Settings";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vyx-Fs-UlK"; */
+"vyx-Fs-UlK.text" = "Label";
+
+/* Class = "UILabel"; text = "Beach Name"; ObjectID = "wgE-RW-XdQ"; */
+"wgE-RW-XdQ.text" = "Beach Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wuo-CE-vRh"; */
+"wuo-CE-vRh.text" = "Label";
+
+/* Class = "UILabel"; text = "Risk Level:"; ObjectID = "xE6-bi-7f6"; */
+"xE6-bi-7f6.text" = "Risk Level:";
+
+/* Class = "UILabel"; text = "BeachName"; ObjectID = "xix-JT-C1V"; */
+"xix-JT-C1V.text" = "BeachName";
+
+/* Class = "UITabBarItem"; title = "Favourites"; ObjectID = "xsp-ez-kzc"; */
+"xsp-ez-kzc.title" = "Favourites";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zJc-Cq-cU2"; */
+"zJc-Cq-cU2.text" = "Label";
+
+/* Class = "UILabel"; text = "Select Beaches to Compare"; ObjectID = "zVb-Ct-alw"; */
+"zVb-Ct-alw.text" = "Select Beaches to Compare";

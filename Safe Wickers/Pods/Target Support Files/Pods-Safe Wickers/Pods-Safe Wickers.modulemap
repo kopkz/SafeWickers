@@ -1,0 +1,6 @@
+framework module Pods_Safe_Wickers {
+  umbrella header "Pods-Safe Wickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

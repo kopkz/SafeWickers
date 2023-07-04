@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Cosmos (21.0.0)
+  - Popover.OC (2.2)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - Cosmos (~> 21.0)
+  - Popover.OC
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - Popover.OC
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  Popover.OC: bfcce8307f77593e1e1d7cf58604077f74e114bc
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
+
+PODFILE CHECKSUM: ae67253d3fa32281e59d805e5d2a39fd83ee1527
+
+COCOAPODS: 1.11.3

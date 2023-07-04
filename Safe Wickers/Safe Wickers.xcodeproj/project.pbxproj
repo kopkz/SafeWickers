@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703FC1D82450514100DF7BFA /* myAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FC1D72450514100DF7BFA /* myAnnotation.swift */; };
+		703FC1DA245051A400DF7BFA /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FC1D9245051A400DF7BFA /* myAnnotationView.swift */; };
+		703FC1DC2450527B00DF7BFA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FC1DB2450527B00DF7BFA /* MapViewController.swift */; };
+		703FC1DE24507C8D00DF7BFA /* BeachDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FC1DD24507C8D00DF7BFA /* BeachDetailViewController.swift */; };
+		704C1C11245445DA006351F0 /* LovedBeachModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C0F245445DA006351F0 /* LovedBeachModel.xcdatamodeld */; };
+		704C1C1C24544801006351F0 /* LovedBeach+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C1A24544801006351F0 /* LovedBeach+CoreDataClass.swift */; };
+		704C1C1D24544801006351F0 /* LovedBeach+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C1B24544801006351F0 /* LovedBeach+CoreDataProperties.swift */; };
+		704C1C2024544855006351F0 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C1F24544855006351F0 /* DatabaseProtocol.swift */; };
+		704C1C2224544AC3006351F0 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C2124544AC3006351F0 /* CoreDataController.swift */; };
+		704C1C2424545432006351F0 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C2324545432006351F0 /* MulticastDelegate.swift */; };
+		704C1C2824556A62006351F0 /* LovedBeachListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C2724556A62006351F0 /* LovedBeachListTableViewController.swift */; };
+		704C1C2A24559854006351F0 /* LovedBeachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C1C2924559854006351F0 /* LovedBeachTableViewCell.swift */; };
+		706B952E246792A000D80ED4 /* UVData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B952D246792A000D80ED4 /* UVData.swift */; };
+		706B953024683A0900D80ED4 /* TidesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B952F24683A0900D80ED4 /* TidesData.swift */; };
+		706B953224683BE100D80ED4 /* TideData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B953124683BE100D80ED4 /* TideData.swift */; };
+		706B95342468681900D80ED4 /* TideHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B95332468681900D80ED4 /* TideHeight.swift */; };
+		707BABF2244C7E3000351335 /* victoria_suburb_names.json in Resources */ = {isa = PBXBuildFile; fileRef = 707BABF1244C7E3000351335 /* victoria_suburb_names.json */; };
+		707BAC5E244D9E6F00351335 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707BAC5D244D9E6F00351335 /* LocationSearchTable.swift */; };
+		7086B1AA244DBA0A005269B2 /* BeachListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086B1A9244DBA0A005269B2 /* BeachListTableViewController.swift */; };
+		7086B1AC244DC102005269B2 /* BeachListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086B1AB244DC102005269B2 /* BeachListTableViewCell.swift */; };
+		708800122463BEE50003A945 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708800112463BEE50003A945 /* CompareViewController.swift */; };
+		70880036246571320003A945 /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 70880035246571310003A945 /* flags.json */; };
+		70880039246572B10003A945 /* BeachSignalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70880038246572B10003A945 /* BeachSignalsTableViewController.swift */; };
+		7088003B246572E90003A945 /* BeachFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088003A246572E90003A945 /* BeachFlag.swift */; };
+		7088003D246580D80003A945 /* FlagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088003C246580D80003A945 /* FlagTableViewCell.swift */; };
+		7088003F2465A8050003A945 /* TransData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7088003E2465A8050003A945 /* TransData.swift */; };
+		708800412465A8410003A945 /* TransResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708800402465A8410003A945 /* TransResult.swift */; };
+		709B6C08246E3B8D00F56148 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B6C07246E3B8D00F56148 /* SettingTableViewController.swift */; };
+		709B6C0A246E3BB500F56148 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B6C09246E3BB500F56148 /* SettingTableViewCell.swift */; };
+		709B6C0C246E3BD000F56148 /* HelpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B6C0B246E3BD000F56148 /* HelpTableViewCell.swift */; };
+		709B6C10246FA19700F56148 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B6C0F246FA19700F56148 /* AppSettings.swift */; };
+		709B6C13246FB35B00F56148 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B6C12246FB35B00F56148 /* AboutUsViewController.swift */; };
+		709C426D2453F09A003C3193 /* FilterButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C426C2453F09A003C3193 /* FilterButtonTableViewCell.swift */; };
+		709D1EAE2446BC2F00F4AB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D1EAD2446BC2F00F4AB4A /* AppDelegate.swift */; };
+		709D1EB52446BC2F00F4AB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D1EB32446BC2F00F4AB4A /* Main.storyboard */; };
+		709D1EB72446BC3000F4AB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709D1EB62446BC3000F4AB4A /* Assets.xcassets */; };
+		709D1EBA2446BC3000F4AB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709D1EB82446BC3000F4AB4A /* LaunchScreen.storyboard */; };
+		709D1EC2244972E300F4AB4A /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D1EC1244972E300F4AB4A /* SearchCollectionViewController.swift */; };
+		709D1EC42449D5C500F4AB4A /* ActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D1EC32449D5C500F4AB4A /* ActivityCollectionViewCell.swift */; };
+		709D1EC62449DD2100F4AB4A /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709D1EC52449DD2100F4AB4A /* Activities.swift */; };
+		709DAEDA246C7023006F05BB /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709DAED9246C7023006F05BB /* CustomSlider.swift */; };
+		70A49DF0244E8A880042CD98 /* Beach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A49DEF244E8A870042CD98 /* Beach.swift */; };
+		70B1D69C24711FC60053029E /* RiskMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1D69B24711FC60053029E /* RiskMeter.swift */; };
+		70BB0B07245141FD002019B3 /* OnlineImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB0B06245141FD002019B3 /* OnlineImageData.swift */; };
+		70BB0B09245142DA002019B3 /* ImageURLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB0B08245142DA002019B3 /* ImageURLData.swift */; };
+		70BB0B0B2452A062002019B3 /* lg_suburbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 70BB0B0A2452A062002019B3 /* lg_suburbs.json */; };
+		70BB0B0D2452AD2B002019B3 /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB0B0C2452AD2B002019B3 /* weatherData.swift */; };
+		70FE9B83245692D900904091 /* LoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE9B82245692D900904091 /* LoveButton.swift */; };
+		846C6064246E4E0F0013DA9A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846C6066246E4E0F0013DA9A /* Localizable.strings */; };
+		846C6069246E676C0013DA9A /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C6068246E676C0013DA9A /* TabBarControllerViewController.swift */; };
+		CB41842CF993B73794769121 /* Pods_Safe_Wickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9982ACD8B8650BFDB86A7747 /* Pods_Safe_Wickers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		703FC1D72450514100DF7BFA /* myAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotation.swift; sourceTree = "<group>"; };
+		703FC1D9245051A400DF7BFA /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
+		703FC1DB2450527B00DF7BFA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		703FC1DD24507C8D00DF7BFA /* BeachDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachDetailViewController.swift; sourceTree = "<group>"; };
+		704C1C10245445DA006351F0 /* LovedBeachModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LovedBeachModel.xcdatamodel; sourceTree = "<group>"; };
+		704C1C1A24544801006351F0 /* LovedBeach+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LovedBeach+CoreDataClass.swift"; sourceTree = "<group>"; };
+		704C1C1B24544801006351F0 /* LovedBeach+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LovedBeach+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		704C1C1F24544855006351F0 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		704C1C2124544AC3006351F0 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		704C1C2324545432006351F0 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		704C1C2724556A62006351F0 /* LovedBeachListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovedBeachListTableViewController.swift; sourceTree = "<group>"; };
+		704C1C2924559854006351F0 /* LovedBeachTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovedBeachTableViewCell.swift; sourceTree = "<group>"; };
+		706B952D246792A000D80ED4 /* UVData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVData.swift; sourceTree = "<group>"; };
+		706B952F24683A0900D80ED4 /* TidesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidesData.swift; sourceTree = "<group>"; };
+		706B953124683BE100D80ED4 /* TideData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideData.swift; sourceTree = "<group>"; };
+		706B95332468681900D80ED4 /* TideHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideHeight.swift; sourceTree = "<group>"; };
+		707BABF1244C7E3000351335 /* victoria_suburb_names.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = victoria_suburb_names.json; path = "Safe Wickers/victoria_suburb_names.json"; sourceTree = "<group>"; };
+		707BAC5D244D9E6F00351335 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		7086B1A9244DBA0A005269B2 /* BeachListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachListTableViewController.swift; sourceTree = "<group>"; };
+		7086B1AB244DC102005269B2 /* BeachListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachListTableViewCell.swift; sourceTree = "<group>"; };
+		708800112463BEE50003A945 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
+		70880035246571310003A945 /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
+		70880038246572B10003A945 /* BeachSignalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachSignalsTableViewController.swift; sourceTree = "<group>"; };
+		7088003A246572E90003A945 /* BeachFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachFlag.swift; sourceTree = "<group>"; };
+		7088003C246580D80003A945 /* FlagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagTableViewCell.swift; sourceTree = "<group>"; };
+		7088003E2465A8050003A945 /* TransData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransData.swift; sourceTree = "<group>"; };
+		708800402465A8410003A945 /* TransResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransResult.swift; sourceTree = "<group>"; };
+		709B6C07246E3B8D00F56148 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		709B6C09246E3BB500F56148 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		709B6C0B246E3BD000F56148 /* HelpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTableViewCell.swift; sourceTree = "<group>"; };
+		709B6C0F246FA19700F56148 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		709B6C12246FB35B00F56148 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		709C426C2453F09A003C3193 /* FilterButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonTableViewCell.swift; sourceTree = "<group>"; };
+		709D1EAA2446BC2F00F4AB4A /* Safe Wickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Wickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709D1EAD2446BC2F00F4AB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		709D1EB42446BC2F00F4AB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709D1EB62446BC3000F4AB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		709D1EB92446BC3000F4AB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		709D1EBB2446BC3000F4AB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709D1EC1244972E300F4AB4A /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
+		709D1EC32449D5C500F4AB4A /* ActivityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		709D1EC52449DD2100F4AB4A /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		709DAED9246C7023006F05BB /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		70A49DEF244E8A870042CD98 /* Beach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beach.swift; sourceTree = "<group>"; };
+		70B1D69B24711FC60053029E /* RiskMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskMeter.swift; sourceTree = "<group>"; };
+		70BB0B06245141FD002019B3 /* OnlineImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineImageData.swift; sourceTree = "<group>"; };
+		70BB0B08245142DA002019B3 /* ImageURLData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLData.swift; sourceTree = "<group>"; };
+		70BB0B0A2452A062002019B3 /* lg_suburbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lg_suburbs.json; sourceTree = "<group>"; };
+		70BB0B0C2452AD2B002019B3 /* weatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
+		70FE9B82245692D900904091 /* LoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveButton.swift; sourceTree = "<group>"; };
+		846C6060246E4D820013DA9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		846C6061246E4D820013DA9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		846C6065246E4E0F0013DA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		846C6067246E4E210013DA9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		846C6068246E676C0013DA9A /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
+		846C609524701F650013DA9A /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		846C609624701F660013DA9A /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		846C609724701F660013DA9A /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9982ACD8B8650BFDB86A7747 /* Pods_Safe_Wickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safe_Wickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB08D21B751E7835FA167C33 /* Pods-Safe Wickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe Wickers.debug.xcconfig"; path = "Target Support Files/Pods-Safe Wickers/Pods-Safe Wickers.debug.xcconfig"; sourceTree = "<group>"; };
+		E7D2F70EB70F227933667760 /* Pods-Safe Wickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe Wickers.release.xcconfig"; path = "Target Support Files/Pods-Safe Wickers/Pods-Safe Wickers.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709D1EA72446BC2F00F4AB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB41842CF993B73794769121 /* Pods_Safe_Wickers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704C1C0824543767006351F0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				709D1EB82446BC3000F4AB4A /* LaunchScreen.storyboard */,
+				709D1EB32446BC2F00F4AB4A /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			path = StoryBoard.temp_caseinsensitive_rename.;
+			sourceTree = "<group>";
+		};
+		704C1C09245437B7006351F0 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				709D1EC1244972E300F4AB4A /* SearchCollectionViewController.swift */,
+				709D1EC52449DD2100F4AB4A /* Activities.swift */,
+				707BAC5D244D9E6F00351335 /* LocationSearchTable.swift */,
+				709D1EC32449D5C500F4AB4A /* ActivityCollectionViewCell.swift */,
+			);
+			path = SearchScreen;
+			sourceTree = "<group>";
+		};
+		704C1C0B24543834006351F0 /* BeachListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7086B1A9244DBA0A005269B2 /* BeachListTableViewController.swift */,
+				70A49DEF244E8A870042CD98 /* Beach.swift */,
+				7086B1AB244DC102005269B2 /* BeachListTableViewCell.swift */,
+				709C426C2453F09A003C3193 /* FilterButtonTableViewCell.swift */,
+			);
+			path = BeachListScreen;
+			sourceTree = "<group>";
+		};
+		704C1C0C24543876006351F0 /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				703FC1DB2450527B00DF7BFA /* MapViewController.swift */,
+				703FC1D9245051A400DF7BFA /* myAnnotationView.swift */,
+				703FC1D72450514100DF7BFA /* myAnnotation.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		704C1C0D2454388E006351F0 /* BeachDetialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				703FC1DD24507C8D00DF7BFA /* BeachDetailViewController.swift */,
+			);
+			path = BeachDetialScreen;
+			sourceTree = "<group>";
+		};
+		704C1C0E2454456A006351F0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				704C1C1A24544801006351F0 /* LovedBeach+CoreDataClass.swift */,
+				704C1C1B24544801006351F0 /* LovedBeach+CoreDataProperties.swift */,
+				704C1C0F245445DA006351F0 /* LovedBeachModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		704C1C1E24544826006351F0 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				704C1C1F24544855006351F0 /* DatabaseProtocol.swift */,
+				704C1C2124544AC3006351F0 /* CoreDataController.swift */,
+				704C1C2324545432006351F0 /* MulticastDelegate.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		704C1C2624556A31006351F0 /* LovedBeachListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				704C1C2724556A62006351F0 /* LovedBeachListTableViewController.swift */,
+				704C1C2924559854006351F0 /* LovedBeachTableViewCell.swift */,
+			);
+			path = LovedBeachListScreen;
+			sourceTree = "<group>";
+		};
+		708800102463BEB90003A945 /* CompareScreen */ = {
+			isa = PBXGroup;
+			children = (
+				708800112463BEE50003A945 /* CompareViewController.swift */,
+				70B1D69B24711FC60053029E /* RiskMeter.swift */,
+			);
+			path = CompareScreen;
+			sourceTree = "<group>";
+		};
+		708800372465725E0003A945 /* BeachSignalsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				70880038246572B10003A945 /* BeachSignalsTableViewController.swift */,
+				7088003A246572E90003A945 /* BeachFlag.swift */,
+				7088003C246580D80003A945 /* FlagTableViewCell.swift */,
+			);
+			path = BeachSignalsScreen;
+			sourceTree = "<group>";
+		};
+		709B6C06246E3B6600F56148 /* SettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				709B6C07246E3B8D00F56148 /* SettingTableViewController.swift */,
+				709B6C09246E3BB500F56148 /* SettingTableViewCell.swift */,
+				709B6C0B246E3BD000F56148 /* HelpTableViewCell.swift */,
+			);
+			path = SettingScreen;
+			sourceTree = "<group>";
+		};
+		709B6C11246FB33900F56148 /* AboutUsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				709B6C12246FB35B00F56148 /* AboutUsViewController.swift */,
+			);
+			path = AboutUsScreen;
+			sourceTree = "<group>";
+		};
+		709D1EA12446BC2E00F4AB4A = {
+			isa = PBXGroup;
+			children = (
+				707BABF1244C7E3000351335 /* victoria_suburb_names.json */,
+				70880035246571310003A945 /* flags.json */,
+				709D1EAC2446BC2F00F4AB4A /* Safe Wickers */,
+				709D1EAB2446BC2F00F4AB4A /* Products */,
+				AD6D1C02C08BF222492237F4 /* Pods */,
+				C498C67DD22E0C9F53298C4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		709D1EAB2446BC2F00F4AB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709D1EAA2446BC2F00F4AB4A /* Safe Wickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709D1EAC2446BC2F00F4AB4A /* Safe Wickers */ = {
+			isa = PBXGroup;
+			children = (
+				709B6C11246FB33900F56148 /* AboutUsScreen */,
+				846C6068246E676C0013DA9A /* TabBarControllerViewController.swift */,
+				846C6066246E4E0F0013DA9A /* Localizable.strings */,
+				709B6C06246E3B6600F56148 /* SettingScreen */,
+				708800372465725E0003A945 /* BeachSignalsScreen */,
+				708800102463BEB90003A945 /* CompareScreen */,
+				704C1C1E24544826006351F0 /* Database */,
+				704C1C0E2454456A006351F0 /* DataModel */,
+				70BB0B0524514125002019B3 /* URLdecode */,
+				704C1C09245437B7006351F0 /* SearchScreen */,
+				704C1C0824543767006351F0 /* StoryBoard */,
+				704C1C0D2454388E006351F0 /* BeachDetialScreen */,
+				704C1C0C24543876006351F0 /* MapScreen */,
+				704C1C0B24543834006351F0 /* BeachListScreen */,
+				709D1EAD2446BC2F00F4AB4A /* AppDelegate.swift */,
+				709D1EBB2446BC3000F4AB4A /* Info.plist */,
+				704C1C2624556A31006351F0 /* LovedBeachListScreen */,
+				709D1EB62446BC3000F4AB4A /* Assets.xcassets */,
+				70BB0B0A2452A062002019B3 /* lg_suburbs.json */,
+				70FE9B82245692D900904091 /* LoveButton.swift */,
+				709DAED9246C7023006F05BB /* CustomSlider.swift */,
+				709B6C0F246FA19700F56148 /* AppSettings.swift */,
+			);
+			path = "Safe Wickers";
+			sourceTree = "<group>";
+		};
+		70BB0B0524514125002019B3 /* URLdecode */ = {
+			isa = PBXGroup;
+			children = (
+				70BB0B06245141FD002019B3 /* OnlineImageData.swift */,
+				70BB0B08245142DA002019B3 /* ImageURLData.swift */,
+				70BB0B0C2452AD2B002019B3 /* weatherData.swift */,
+				7088003E2465A8050003A945 /* TransData.swift */,
+				708800402465A8410003A945 /* TransResult.swift */,
+				706B952D246792A000D80ED4 /* UVData.swift */,
+				706B952F24683A0900D80ED4 /* TidesData.swift */,
+				706B953124683BE100D80ED4 /* TideData.swift */,
+				706B95332468681900D80ED4 /* TideHeight.swift */,
+			);
+			path = URLdecode;
+			sourceTree = "<group>";
+		};
+		AD6D1C02C08BF222492237F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB08D21B751E7835FA167C33 /* Pods-Safe Wickers.debug.xcconfig */,
+				E7D2F70EB70F227933667760 /* Pods-Safe Wickers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C498C67DD22E0C9F53298C4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9982ACD8B8650BFDB86A7747 /* Pods_Safe_Wickers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709D1EA92446BC2F00F4AB4A /* Safe Wickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709D1EBE2446BC3000F4AB4A /* Build configuration list for PBXNativeTarget "Safe Wickers" */;
+			buildPhases = (
+				142C47B5C1B04AFEA57C9D74 /* [CP] Check Pods Manifest.lock */,
+				709D1EA62446BC2F00F4AB4A /* Sources */,
+				709D1EA72446BC2F00F4AB4A /* Frameworks */,
+				709D1EA82446BC2F00F4AB4A /* Resources */,
+				5EA104CF8D4CC0CAD75D6F0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe Wickers";
+			productName = "Safe Wickers";
+			productReference = 709D1EAA2446BC2F00F4AB4A /* Safe Wickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709D1EA22446BC2E00F4AB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "匡正";
+				TargetAttributes = {
+					709D1EA92446BC2F00F4AB4A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 709D1EA52446BC2E00F4AB4A /* Build configuration list for PBXProject "Safe Wickers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				hi,
+			);
+			mainGroup = 709D1EA12446BC2E00F4AB4A;
+			productRefGroup = 709D1EAB2446BC2F00F4AB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709D1EA92446BC2F00F4AB4A /* Safe Wickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709D1EA82446BC2F00F4AB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707BABF2244C7E3000351335 /* victoria_suburb_names.json in Resources */,
+				70BB0B0B2452A062002019B3 /* lg_suburbs.json in Resources */,
+				709D1EBA2446BC3000F4AB4A /* LaunchScreen.storyboard in Resources */,
+				846C6064246E4E0F0013DA9A /* Localizable.strings in Resources */,
+				709D1EB72446BC3000F4AB4A /* Assets.xcassets in Resources */,
+				709D1EB52446BC2F00F4AB4A /* Main.storyboard in Resources */,
+				70880036246571320003A945 /* flags.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142C47B5C1B04AFEA57C9D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safe Wickers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA104CF8D4CC0CAD75D6F0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safe Wickers/Pods-Safe Wickers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Safe Wickers/Pods-Safe Wickers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Safe Wickers/Pods-Safe Wickers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709D1EA62446BC2F00F4AB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703FC1DC2450527B00DF7BFA /* MapViewController.swift in Sources */,
+				70BB0B07245141FD002019B3 /* OnlineImageData.swift in Sources */,
+				709D1EC62449DD2100F4AB4A /* Activities.swift in Sources */,
+				70880039246572B10003A945 /* BeachSignalsTableViewController.swift in Sources */,
+				709B6C13246FB35B00F56148 /* AboutUsViewController.swift in Sources */,
+				70A49DF0244E8A880042CD98 /* Beach.swift in Sources */,
+				704C1C2024544855006351F0 /* DatabaseProtocol.swift in Sources */,
+				7086B1AC244DC102005269B2 /* BeachListTableViewCell.swift in Sources */,
+				704C1C2824556A62006351F0 /* LovedBeachListTableViewController.swift in Sources */,
+				7086B1AA244DBA0A005269B2 /* BeachListTableViewController.swift in Sources */,
+				7088003D246580D80003A945 /* FlagTableViewCell.swift in Sources */,
+				704C1C2A24559854006351F0 /* LovedBeachTableViewCell.swift in Sources */,
+				706B953024683A0900D80ED4 /* TidesData.swift in Sources */,
+				709B6C0A246E3BB500F56148 /* SettingTableViewCell.swift in Sources */,
+				707BAC5E244D9E6F00351335 /* LocationSearchTable.swift in Sources */,
+				706B952E246792A000D80ED4 /* UVData.swift in Sources */,
+				703FC1DA245051A400DF7BFA /* myAnnotationView.swift in Sources */,
+				704C1C1D24544801006351F0 /* LovedBeach+CoreDataProperties.swift in Sources */,
+				703FC1DE24507C8D00DF7BFA /* BeachDetailViewController.swift in Sources */,
+				709D1EC2244972E300F4AB4A /* SearchCollectionViewController.swift in Sources */,
+				7088003B246572E90003A945 /* BeachFlag.swift in Sources */,
+				709DAEDA246C7023006F05BB /* CustomSlider.swift in Sources */,
+				709B6C0C246E3BD000F56148 /* HelpTableViewCell.swift in Sources */,
+				70B1D69C24711FC60053029E /* RiskMeter.swift in Sources */,
+				709B6C10246FA19700F56148 /* AppSettings.swift in Sources */,
+				846C6069246E676C0013DA9A /* TabBarControllerViewController.swift in Sources */,
+				708800122463BEE50003A945 /* CompareViewController.swift in Sources */,
+				709D1EAE2446BC2F00F4AB4A /* AppDelegate.swift in Sources */,
+				70BB0B0D2452AD2B002019B3 /* weatherData.swift in Sources */,
+				704C1C1C24544801006351F0 /* LovedBeach+CoreDataClass.swift in Sources */,
+				704C1C11245445DA006351F0 /* LovedBeachModel.xcdatamodeld in Sources */,
+				709B6C08246E3B8D00F56148 /* SettingTableViewController.swift in Sources */,
+				706B95342468681900D80ED4 /* TideHeight.swift in Sources */,
+				70BB0B09245142DA002019B3 /* ImageURLData.swift in Sources */,
+				706B953224683BE100D80ED4 /* TideData.swift in Sources */,
+				70FE9B83245692D900904091 /* LoveButton.swift in Sources */,
+				704C1C2224544AC3006351F0 /* CoreDataController.swift in Sources */,
+				709D1EC42449D5C500F4AB4A /* ActivityCollectionViewCell.swift in Sources */,
+				7088003F2465A8050003A945 /* TransData.swift in Sources */,
+				704C1C2424545432006351F0 /* MulticastDelegate.swift in Sources */,
+				708800412465A8410003A945 /* TransResult.swift in Sources */,
+				703FC1D82450514100DF7BFA /* myAnnotation.swift in Sources */,
+				709C426D2453F09A003C3193 /* FilterButtonTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		709D1EB32446BC2F00F4AB4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D1EB42446BC2F00F4AB4A /* Base */,
+				846C6061246E4D820013DA9A /* zh-Hans */,
+				846C609624701F660013DA9A /* hi */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		709D1EB82446BC3000F4AB4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D1EB92446BC3000F4AB4A /* Base */,
+				846C6060246E4D820013DA9A /* zh-Hans */,
+				846C609524701F650013DA9A /* hi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		846C6066246E4E0F0013DA9A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846C6065246E4E0F0013DA9A /* en */,
+				846C6067246E4E210013DA9A /* zh-Hans */,
+				846C609724701F660013DA9A /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709D1EBC2446BC3000F4AB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		709D1EBD2446BC3000F4AB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709D1EBF2446BC3000F4AB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB08D21B751E7835FA167C33 /* Pods-Safe Wickers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VF8549G3Y;
+				INFOPLIST_FILE = "Safe Wickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kop2020.Safe-Wickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709D1EC02446BC3000F4AB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D2F70EB70F227933667760 /* Pods-Safe Wickers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VF8549G3Y;
+				INFOPLIST_FILE = "Safe Wickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kop2020.Safe-Wickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709D1EA52446BC2E00F4AB4A /* Build configuration list for PBXProject "Safe Wickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D1EBC2446BC3000F4AB4A /* Debug */,
+				709D1EBD2446BC3000F4AB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709D1EBE2446BC3000F4AB4A /* Build configuration list for PBXNativeTarget "Safe Wickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D1EBF2446BC3000F4AB4A /* Debug */,
+				709D1EC02446BC3000F4AB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		704C1C0F245445DA006351F0 /* LovedBeachModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				704C1C10245445DA006351F0 /* LovedBeachModel.xcdatamodel */,
+			);
+			currentVersion = 704C1C10245445DA006351F0 /* LovedBeachModel.xcdatamodel */;
+			path = LovedBeachModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 709D1EA22446BC2E00F4AB4A /* Project object */;
+}
