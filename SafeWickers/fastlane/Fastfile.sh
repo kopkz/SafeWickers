@@ -13,23 +13,16 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update\_fastlane
 
-# 导入插件
-import 'cocoapods'
-import 'gym'
+default_platform(:ios)
 
+platform :ios do
+  lane :build do
+    cocoapods
 
-lane :build do |options|
-  scheme = options[:scheme]
-  workspace = options[:workspace]
-  export_options = options[:export_options]
-
-  # 更新依赖库
-  cocoapods
-
-  # 构建应用
-  gym(
-    scheme: scheme,
-    workspace: workspace,
-    export_options: export_options
-  )
+    gym(
+      scheme: "Debug",
+      workspace: "Safe Wickers.xcworkspace",
+      export_options: "./exportOptions.plist"
+    )
+  end
 end
