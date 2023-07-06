@@ -13,61 +13,23 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update\_fastlane
 
-default_platform(:ios)
-platform :ios do
+# 导入插件
+import 'cocoapods'
+import 'gym'
 
-  desc "利用Fastland实现自动化打包"
-  # fastlane debug 命令打包 这样容易理解
-  lane :debug do
 
-    build_app(
+lane :build do |options|
+  scheme = options[:scheme]
+  workspace = options[:workspace]
+  export_options = options[:export_options]
 
-      # 每次打包之前clean一下
-      clean: true,
-      # 打包出ipa文件路径
-      output_directory: './fastlane/build',
-      # 打包的名称
-      output_name: 'Shopmoods.ipa',
-      # 项目的scheme
-      scheme: 'Shopmoods',
-      # 默认Release，Release or Debug
-      configuration: 'Release',
-      # 是否包含bitcode 根据自己项目的实际情况到buildsetting查看
-      include_bitcode:false,
-      # 是否包含symbols
-      include_symbols: true,
-      # 打包导出方式，包含app-store, validation, ad-hoc, package, enterprise, development, developer-id and mac-application
-      # 我们这里是上传蒲公英 所以就选择ad-hoc
-      export_method: 'ad-hoc',
-      # 这个设置是为了设置xcode自动配置证书和配置文件，当然也可以手动配置
-      export_xcargs: '-allowProvisioningUpdates'
-    )
-    # mac上的通知弹窗，通知打包完毕
-    notification(app_icon: './fastlane/icon.png', title: 'manager', subtitle: '打包成功，已导出安装包', message: '准备上传中……')
-    # 上传IPA到蒲公英
-    #pgyer(api_key: "****", user_key: "****")
+  # 更新依赖库
+  cocoapods
 
-  end
-
- 
-  desc "钉钉群消息通知"
-  lane :dingdingTalk do |options|
-
-    msg = options[:message]
-    curl = %Q{
-      curl 'https://oapi.dingtalk.com/robot/send?access_token=744c0744db403fc7ab45da5150861118e5876735fc26dc0f61e8c195d1301963' \
-      -H 'Content-Type:application/json' \
-      -d '{
-        "msgtype":"markdown",
-        "markdown":{
-          "title":"Shopmoods蒲公英更新通知",
-          "text":"#### 🚀 App更新成功（0.0.1）\n 更新说明：#{msg} \n###### 扫码安装↓↓↓\n"
-        },
-        "at":{
-          "isAtAll": true
-        }
-      }'
-    }
-    system curl
-  end
+  # 构建应用
+  gym(
+    scheme: scheme,
+    workspace: workspace,
+    export_options: export_options
+  )
 end

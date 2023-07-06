@@ -1,0 +1,444 @@
+2023-07-05 13:36:44 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb58afdb0d0; archive(resolved)="<IDEArchive: 0x6000c185d380>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb58afdb0d0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fb58afb67d0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb57f2c0030; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb4eeedc710; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb4eeef9e70; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb4eee0ecb0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb58ac1bbb0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb58af3cc40; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb55b9bbca0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60005663e2c0; teamID='2Q4AN7A3N8', teamName='JJWorld(Beijing) network technology Co., LTD', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7fb589c1a310; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb57f24b6e0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb57f21a8a0; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb589c7e700; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60004fed99f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb58ad32740; archive = "<IDEArchive: 0x6000c185d380>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fb58afdb0d0>
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionCopyItemStep
+2023-07-05 13:36:44 +0000  Running /usr/bin/ditto '-V' '/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app'
+2023-07-05 13:36:44 +0000  >>> Copying /Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app 
+2023-07-05 13:36:44 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-07-05 13:36:44 +0000  16282 bytes for ./_CodeSignature/CodeResources
+2023-07-05 13:36:44 +0000  copying file ./zh-Hans.lproj/LaunchScreen.strings ... 
+2023-07-05 13:36:44 +0000  1 bytes for ./zh-Hans.lproj/LaunchScreen.strings
+2023-07-05 13:36:44 +0000  copying file ./zh-Hans.lproj/Main.strings ... 
+2023-07-05 13:36:44 +0000  7135 bytes for ./zh-Hans.lproj/Main.strings
+2023-07-05 13:36:44 +0000  copying file ./zh-Hans.lproj/Localizable.strings ... 
+2023-07-05 13:36:44 +0000  4269 bytes for ./zh-Hans.lproj/Localizable.strings
+2023-07-05 13:36:44 +0000  copying file ./en.lproj/Localizable.strings ... 
+2023-07-05 13:36:44 +0000  4842 bytes for ./en.lproj/Localizable.strings
+2023-07-05 13:36:44 +0000  copying file ./LovedBeachModel.momd/VersionInfo.plist ... 
+2023-07-05 13:36:44 +0000  157 bytes for ./LovedBeachModel.momd/VersionInfo.plist
+2023-07-05 13:36:44 +0000  copying file ./LovedBeachModel.momd/LovedBeachModel.mom ... 
+2023-07-05 13:36:44 +0000  1738 bytes for ./LovedBeachModel.momd/LovedBeachModel.mom
+2023-07-05 13:36:44 +0000  copying file ./Safe Wickers ... 
+2023-07-05 13:36:44 +0000  529536 bytes for ./Safe Wickers
+2023-07-05 13:36:44 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-07-05 13:36:44 +0000  9152 bytes for ./AppIcon60x60@2x.png
+2023-07-05 13:36:44 +0000  copying file ./victoria_suburb_names.json ... 
+2023-07-05 13:36:44 +0000  75785 bytes for ./victoria_suburb_names.json
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2023-07-05 13:36:44 +0000  10124 bytes for ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/LovedBeachList.nib ... 
+2023-07-05 13:36:44 +0000  2068 bytes for ./Base.lproj/Main.storyboardc/LovedBeachList.nib
+copying file ./Base.lproj/Main.storyboardc/SsP-Cn-ZIh-view-AHt-aP-2CZ.nib ... 
+2023-07-05 13:36:44 +0000  3941 bytes for ./Base.lproj/Main.storyboardc/SsP-Cn-ZIh-view-AHt-aP-2CZ.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib ... 
+2023-07-05 13:36:44 +0000  20368 bytes for ./Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/rootViewController.nib ... 
+2023-07-05 13:36:44 +0000  6680 bytes for ./Base.lproj/Main.storyboardc/rootViewController.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/LocationSearchTable.nib ... 
+2023-07-05 13:36:44 +0000  1039 bytes for ./Base.lproj/Main.storyboardc/LocationSearchTable.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/K5Y-C8-JHS-view-4YT-nC-S3P.nib ... 
+2023-07-05 13:36:44 +0000  5840 bytes for ./Base.lproj/Main.storyboardc/K5Y-C8-JHS-view-4YT-nC-S3P.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-SsP-Cn-ZIh.nib ... 
+2023-07-05 13:36:44 +0000  982 bytes for ./Base.lproj/Main.storyboardc/UIViewController-SsP-Cn-ZIh.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/vw7-Wu-Tso-view-p3U-Gk-b9R.nib ... 
+2023-07-05 13:36:44 +0000  11034 bytes for ./Base.lproj/Main.storyboardc/vw7-Wu-Tso-view-p3U-Gk-b9R.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/mHm-75-NRS-view-a7U-F4-J2n.nib ... 
+2023-07-05 13:36:44 +0000  4846 bytes for ./Base.lproj/Main.storyboardc/mHm-75-NRS-view-a7U-F4-J2n.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/3oY-q1-NlS-view-CsG-eD-KYw.nib ... 
+2023-07-05 13:36:44 +0000  7644 bytes for ./Base.lproj/Main.storyboardc/3oY-q1-NlS-view-CsG-eD-KYw.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/p7j-Pj-7mW-view-Rn2-kc-v7x.nib ... 
+2023-07-05 13:36:44 +0000  9901 bytes for ./Base.lproj/Main.storyboardc/p7j-Pj-7mW-view-Rn2-kc-v7x.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/UITableViewController-vw7-Wu-Tso.nib ... 
+2023-07-05 13:36:44 +0000  1989 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-vw7-Wu-Tso.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/BeachDetail.nib ... 
+2023-07-05 13:36:44 +0000  1829 bytes for ./Base.lproj/Main.storyboardc/BeachDetail.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/4VQ-Ci-CFc-view-eZR-1a-Lge.nib ... 
+2023-07-05 13:36:44 +0000  13054 bytes for ./Base.lproj/Main.storyboardc/4VQ-Ci-CFc-view-eZR-1a-Lge.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-hrO-az-q6V.nib ... 
+2023-07-05 13:36:44 +0000  1366 bytes for ./Base.lproj/Main.storyboardc/UIViewController-hrO-az-q6V.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2023-07-05 13:36:44 +0000  567 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/Main.storyboardc/hrO-az-q6V-view-76Y-OP-6xy.nib ... 
+2023-07-05 13:36:44 +0000  2853 bytes for ./Base.lproj/Main.storyboardc/hrO-az-q6V-view-76Y-OP-6xy.nib
+copying file ./Base.lproj/Main.storyboardc/settingVC.nib ... 
+2023-07-05 13:36:44 +0000  1391 bytes for ./Base.lproj/Main.storyboardc/settingVC.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-07-05 13:36:44 +0000  2490 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-07-05 13:36:44 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-07-05 13:36:44 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-07-05 13:36:44 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2023-07-05 13:36:44 +0000  copying file ./Assets.car ... 
+2023-07-05 13:36:44 +0000  1779279 bytes for ./Assets.car
+2023-07-05 13:36:44 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+12696 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./lg_suburbs.json ... 
+2023-07-05 13:36:44 +0000  22055 bytes for ./lg_suburbs.json
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Popover_OC.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:44 +0000  1798 bytes for ./Frameworks/Popover_OC.framework/_CodeSignature/CodeResources
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Popover_OC.framework/Popover_OC ... 
+2023-07-05 13:36:44 +0000  132528 bytes for ./Frameworks/Popover_OC.framework/Popover_OC
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Popover_OC.framework/Info.plist ... 
+2023-07-05 13:36:44 +0000  791 bytes for ./Frameworks/Popover_OC.framework/Info.plist
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Cosmos.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:44 +0000  1798 bytes for ./Frameworks/Cosmos.framework/_CodeSignature/CodeResources
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Cosmos.framework/Cosmos ... 
+2023-07-05 13:36:44 +0000  279824 bytes for ./Frameworks/Cosmos.framework/Cosmos
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Cosmos.framework/Info.plist ... 
+2023-07-05 13:36:44 +0000  784 bytes for ./Frameworks/Cosmos.framework/Info.plist
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:44 +0000  1798 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2023-07-05 13:36:44 +0000  1273952 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+789 bytes for ./Frameworks/Alamofire.framework/Info.plist
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:44 +0000  1798 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2023-07-05 13:36:44 +0000  947120 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+2023-07-05 13:36:44 +0000  copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+792 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+2023-07-05 13:36:44 +0000  27040 bytes for ./embedded.mobileprovision
+2023-07-05 13:36:44 +0000  copying file ./flags.json ... 
+2023-07-05 13:36:44 +0000  4534 bytes for ./flags.json
+2023-07-05 13:36:44 +0000  copying file ./Info.plist ... 
+2023-07-05 13:36:44 +0000  1701 bytes for ./Info.plist
+2023-07-05 13:36:44 +0000  copying file ./PkgInfo ... 
+2023-07-05 13:36:44 +0000  8 bytes for ./PkgInfo
+2023-07-05 13:36:44 +0000  copying file ./hi.lproj/LaunchScreen.strings ... 
+2023-07-05 13:36:44 +0000  1 bytes for ./hi.lproj/LaunchScreen.strings
+2023-07-05 13:36:44 +0000  copying file ./hi.lproj/Main.strings ... 
+2023-07-05 13:36:44 +0000  7333 bytes for ./hi.lproj/Main.strings
+2023-07-05 13:36:44 +0000  copying file ./hi.lproj/Localizable.strings ... 
+2023-07-05 13:36:44 +0000  6931 bytes for ./hi.lproj/Localizable.strings
+2023-07-05 13:36:44 +0000  /usr/bin/ditto exited with 0
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-07-05 13:36:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x6000958a72a0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x6000255d1420:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54b90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000308a8000; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000c175d1f0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x60007d938000; bundleID='org.cocoapods.Cosmos', path='<DVTFilePath:0x6000255d24c0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60009dfb8410; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000308a8000; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Cosmos', executablePath='<DVTFilePath:0x6000958cd980:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x6000958ce7c0; bundleID='org.cocoapods.Popover-OC', path='<DVTFilePath:0x6000255d3d40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edcb1ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000308a8000; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Popover-OC', executablePath='<DVTFilePath:0x6000c175ebc0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x6000958a7ae0; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x6000255d3f70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000308a8000; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x6000c1758e70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionSymbolsStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionAppThinningStep
+2023-07-05 13:36:44 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionArchThinningStep
+2023-07-05 13:36:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire' '-verify_arch' 'arm64e'
+2023-07-05 13:36:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 13:36:44 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2023-07-05 13:36:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos' '-verify_arch' 'arm64e'
+2023-07-05 13:36:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 13:36:44 +0000  Skipping architecture thinning for item "Cosmos" because arch "arm64e" wasn't found
+2023-07-05 13:36:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC' '-verify_arch' 'arm64e'
+2023-07-05 13:36:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 13:36:44 +0000  Skipping architecture thinning for item "Popover_OC" because arch "arm64e" wasn't found
+2023-07-05 13:36:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage' '-verify_arch' 'arm64e'
+2023-07-05 13:36:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 13:36:44 +0000  Skipping architecture thinning for item "SDWebImage" because arch "arm64e" wasn't found
+2023-07-05 13:36:44 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Safe Wickers' '-verify_arch' 'arm64e'
+2023-07-05 13:36:44 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 13:36:44 +0000  Skipping architecture thinning for item "Safe Wickers" because arch "arm64e" wasn't found
+2023-07-05 13:36:44 +0000  Processing step: IDEDistributionODRStep
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-07-05 13:36:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000958a72a0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x6000255d1420:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54b90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6a310; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000c175d1f0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60007d938000; bundleID='org.cocoapods.Cosmos', path='<DVTFilePath:0x6000255d24c0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60009dfb8410; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b8f440; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Cosmos', executablePath='<DVTFilePath:0x6000958cd980:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000958ce7c0; bundleID='org.cocoapods.Popover-OC', path='<DVTFilePath:0x6000255d3d40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edcb1ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6a310; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Popover-OC', executablePath='<DVTFilePath:0x6000c175ebc0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000958a7ae0; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x6000255d3f70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030887a70; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x6000c1758e70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2023-07-05 13:36:45 +0000  Running /usr/bin/xattr '-crs' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app'
+2023-07-05 13:36:45 +0000  /usr/bin/xattr exited with 0
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionCodesignStep
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958a72a0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x6000255d1420:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54b90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6a310; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000c175d1f0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958a72a0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x6000255d1420:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54b90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b68420; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000c175d1f0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> are: {
+}
+2023-07-05 13:36:45 +0000  Writing entitlements for <IDEDistributionItem: 0x6000958a72a0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x6000255d1420:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54b90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b80fd0; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x6000c175d1f0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~pNIu0g
+2023-07-05 13:36:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43' '--entitlements' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~pNIu0g' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Alamofire.framework'
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Alamofire.framework: replacing existing signature
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Alamofire.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Alamofire]
+2023-07-05 13:36:45 +0000  /usr/bin/codesign exited with 0
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x60007d938000; bundleID='org.cocoapods.Cosmos', path='<DVTFilePath:0x6000255d24c0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60009dfb8410; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000308a8630; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Cosmos', executablePath='<DVTFilePath:0x6000958cd980:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos'>', hardenedRuntime='0'>'>: {
+}
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x60007d938000; bundleID='org.cocoapods.Cosmos', path='<DVTFilePath:0x6000255d24c0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60009dfb8410; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b69970; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Cosmos', executablePath='<DVTFilePath:0x6000958cd980:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos'>', hardenedRuntime='0'>'> are: {
+}
+2023-07-05 13:36:45 +0000  Writing entitlements for <IDEDistributionItem: 0x60007d938000; bundleID='org.cocoapods.Cosmos', path='<DVTFilePath:0x6000255d24c0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x60009dfb8410; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b68420; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Cosmos', executablePath='<DVTFilePath:0x6000958cd980:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos'>', hardenedRuntime='0'>'> to: /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~5yP7xH
+2023-07-05 13:36:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43' '--entitlements' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~5yP7xH' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Cosmos.framework'
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Cosmos.framework: replacing existing signature
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Cosmos.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Cosmos]
+2023-07-05 13:36:45 +0000  /usr/bin/codesign exited with 0
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958ce7c0; bundleID='org.cocoapods.Popover-OC', path='<DVTFilePath:0x6000255d3d40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edcb1ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6a310; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Popover-OC', executablePath='<DVTFilePath:0x6000c175ebc0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC'>', hardenedRuntime='0'>'>: {
+}
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958ce7c0; bundleID='org.cocoapods.Popover-OC', path='<DVTFilePath:0x6000255d3d40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edcb1ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b68420; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Popover-OC', executablePath='<DVTFilePath:0x6000c175ebc0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC'>', hardenedRuntime='0'>'> are: {
+}
+2023-07-05 13:36:45 +0000  Writing entitlements for <IDEDistributionItem: 0x6000958ce7c0; bundleID='org.cocoapods.Popover-OC', path='<DVTFilePath:0x6000255d3d40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edcb1ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6b910; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.Popover-OC', executablePath='<DVTFilePath:0x6000c175ebc0:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC'>', hardenedRuntime='0'>'> to: /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~iPotia
+2023-07-05 13:36:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43' '--entitlements' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~iPotia' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Popover_OC.framework'
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Popover_OC.framework: replacing existing signature
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Popover_OC.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Popover-OC]
+2023-07-05 13:36:45 +0000  /usr/bin/codesign exited with 0
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958a7ae0; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x6000255d3f70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b6a310; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x6000c1758e70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>: {
+}
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958a7ae0; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x6000255d3f70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b68420; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x6000c1758e70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> are: {
+}
+2023-07-05 13:36:45 +0000  Writing entitlements for <IDEDistributionItem: 0x6000958a7ae0; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x6000255d3f70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54460; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b3e100; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='(null)', teamID='2Q4AN7A3N8', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x6000c1758e70:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> to: /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~mhnIXV
+2023-07-05 13:36:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43' '--entitlements' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~mhnIXV' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/SDWebImage.framework'
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/SDWebImage.framework: replacing existing signature
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SDWebImage]
+2023-07-05 13:36:45 +0000  /usr/bin/codesign exited with 0
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958b9260; bundleID='cn.jj.tkstdrt', path='<DVTFilePath:0x60008d74af40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b3e100; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='{
+    "application-identifier" = "2Q4AN7A3N8.cn.jj.tkstdrt";
+    "com.apple.developer.team-identifier" = 2Q4AN7A3N8;
+    "get-task-allow" = 1;
+}', teamID='2Q4AN7A3N8', identifier='cn.jj.tkstdrt', executablePath='<DVTFilePath:0x6000b17c4d90:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Safe Wickers'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2Q4AN7A3N8.cn.jj.tkstdrt";
+    "com.apple.developer.team-identifier" = 2Q4AN7A3N8;
+    "get-task-allow" = 1;
+}
+2023-07-05 13:36:45 +0000  Entitlements for <IDEDistributionItem: 0x6000958b9260; bundleID='cn.jj.tkstdrt', path='<DVTFilePath:0x60008d74af40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b3f0d0; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='{
+    "application-identifier" = "2Q4AN7A3N8.cn.jj.tkstdrt";
+    "com.apple.developer.team-identifier" = 2Q4AN7A3N8;
+    "get-task-allow" = 1;
+}', teamID='2Q4AN7A3N8', identifier='cn.jj.tkstdrt', executablePath='<DVTFilePath:0x6000b17c4d90:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Safe Wickers'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "2Q4AN7A3N8.cn.jj.tkstdrt";
+    "com.apple.developer.team-identifier" = 2Q4AN7A3N8;
+    "get-task-allow" = 1;
+}
+2023-07-05 13:36:45 +0000  Writing entitlements for <IDEDistributionItem: 0x6000958b9260; bundleID='cn.jj.tkstdrt', path='<DVTFilePath:0x60008d74af40:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000edf54870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600030b3e1b0; name='Apple Development: lei hou (KN4PN3R226)', hash='D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43', serialNumber='44315ACDB2D62799205887E748130F31', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-24 06:34:12 +0000''>', entitlements='{
+    "application-identifier" = "2Q4AN7A3N8.cn.jj.tkstdrt";
+    "com.apple.developer.team-identifier" = 2Q4AN7A3N8;
+    "get-task-allow" = 1;
+}', teamID='2Q4AN7A3N8', identifier='cn.jj.tkstdrt', executablePath='<DVTFilePath:0x6000b17c4d90:'/Users/jj/Library/Developer/Xcode/Archives/2023-07-05/Safe Wickers 2023-7-5, 21.33.xcarchive/Products/Applications/Safe Wickers.app/Safe Wickers'>', hardenedRuntime='0'>'> to: /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~RxnugD
+2023-07-05 13:36:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43' '--entitlements' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/entitlements~~~RxnugD' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app'
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app: replacing existing signature
+2023-07-05 13:36:45 +0000  /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app: signed app bundle with Mach-O thin (arm64) [cn.jj.tkstdrt]
+2023-07-05 13:36:45 +0000  /usr/bin/codesign exited with 0
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-07-05 13:36:45 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root' '/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Packages/Safe Wickers.ipa'
+2023-07-05 13:36:45 +0000  >>> Copying /var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root 
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:45 +0000  16282 bytes for ./Payload/Safe Wickers.app/_CodeSignature/CodeResources
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/zh-Hans.lproj/LaunchScreen.strings ... 
+2023-07-05 13:36:45 +0000  1 bytes for ./Payload/Safe Wickers.app/zh-Hans.lproj/LaunchScreen.strings
+copying file ./Payload/Safe Wickers.app/zh-Hans.lproj/Main.strings ... 
+2023-07-05 13:36:45 +0000  7135 bytes for ./Payload/Safe Wickers.app/zh-Hans.lproj/Main.strings
+copying file ./Payload/Safe Wickers.app/zh-Hans.lproj/Localizable.strings ... 
+2023-07-05 13:36:45 +0000  4269 bytes for ./Payload/Safe Wickers.app/zh-Hans.lproj/Localizable.strings
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/en.lproj/Localizable.strings ... 
+2023-07-05 13:36:45 +0000  4842 bytes for ./Payload/Safe Wickers.app/en.lproj/Localizable.strings
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/LovedBeachModel.momd/VersionInfo.plist ... 
+2023-07-05 13:36:45 +0000  157 bytes for ./Payload/Safe Wickers.app/LovedBeachModel.momd/VersionInfo.plist
+copying file ./Payload/Safe Wickers.app/LovedBeachModel.momd/LovedBeachModel.mom ... 
+2023-07-05 13:36:45 +0000  1738 bytes for ./Payload/Safe Wickers.app/LovedBeachModel.momd/LovedBeachModel.mom
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Safe Wickers ... 
+2023-07-05 13:36:45 +0000  529536 bytes for ./Payload/Safe Wickers.app/Safe Wickers
+copying file ./Payload/Safe Wickers.app/AppIcon60x60@2x.png ... 
+2023-07-05 13:36:45 +0000  9152 bytes for ./Payload/Safe Wickers.app/AppIcon60x60@2x.png
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/victoria_suburb_names.json ... 
+2023-07-05 13:36:45 +0000  75785 bytes for ./Payload/Safe Wickers.app/victoria_suburb_names.json
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2023-07-05 13:36:45 +0000  10124 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/LovedBeachList.nib ... 
+2068 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/LovedBeachList.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/SsP-Cn-ZIh-view-AHt-aP-2CZ.nib ... 
+2023-07-05 13:36:45 +0000  3941 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/SsP-Cn-ZIh-view-AHt-aP-2CZ.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib ... 
+2023-07-05 13:36:45 +0000  20368 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/rootViewController.nib ... 
+2023-07-05 13:36:45 +0000  6680 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/rootViewController.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/LocationSearchTable.nib ... 
+1039 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/LocationSearchTable.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/K5Y-C8-JHS-view-4YT-nC-S3P.nib ... 
+2023-07-05 13:36:45 +0000  5840 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/K5Y-C8-JHS-view-4YT-nC-S3P.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UIViewController-SsP-Cn-ZIh.nib ... 
+2023-07-05 13:36:45 +0000  982 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UIViewController-SsP-Cn-ZIh.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/vw7-Wu-Tso-view-p3U-Gk-b9R.nib ... 
+2023-07-05 13:36:45 +0000  11034 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/vw7-Wu-Tso-view-p3U-Gk-b9R.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/mHm-75-NRS-view-a7U-F4-J2n.nib ... 
+2023-07-05 13:36:45 +0000  4846 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/mHm-75-NRS-view-a7U-F4-J2n.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/3oY-q1-NlS-view-CsG-eD-KYw.nib ... 
+2023-07-05 13:36:45 +0000  7644 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/3oY-q1-NlS-view-CsG-eD-KYw.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/p7j-Pj-7mW-view-Rn2-kc-v7x.nib ... 
+2023-07-05 13:36:45 +0000  9901 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/p7j-Pj-7mW-view-Rn2-kc-v7x.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UITableViewController-vw7-Wu-Tso.nib ... 
+2023-07-05 13:36:45 +0000  1989 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UITableViewController-vw7-Wu-Tso.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/BeachDetail.nib ... 
+2023-07-05 13:36:45 +0000  1829 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/BeachDetail.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/4VQ-Ci-CFc-view-eZR-1a-Lge.nib ... 
+2023-07-05 13:36:45 +0000  13054 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/4VQ-Ci-CFc-view-eZR-1a-Lge.nib
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UIViewController-hrO-az-q6V.nib ... 
+2023-07-05 13:36:45 +0000  1366 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/UIViewController-hrO-az-q6V.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/Info.plist ... 
+567 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/Info.plist
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/hrO-az-q6V-view-76Y-OP-6xy.nib ... 
+2023-07-05 13:36:45 +0000  2853 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/hrO-az-q6V-view-76Y-OP-6xy.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/settingVC.nib ... 
+2023-07-05 13:36:45 +0000  1391 bytes for ./Payload/Safe Wickers.app/Base.lproj/Main.storyboardc/settingVC.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-07-05 13:36:45 +0000  2490 bytes for ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-07-05 13:36:45 +0000  896 bytes for ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-07-05 13:36:45 +0000  258 bytes for ./Payload/Safe Wickers.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Safe Wickers.app/Assets.car ... 
+2023-07-05 13:36:45 +0000  1779279 bytes for ./Payload/Safe Wickers.app/Assets.car
+copying file ./Payload/Safe Wickers.app/AppIcon76x76@2x~ipad.png ... 
+2023-07-05 13:36:45 +0000  12696 bytes for ./Payload/Safe Wickers.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Safe Wickers.app/lg_suburbs.json ... 
+2023-07-05 13:36:45 +0000  22055 bytes for ./Payload/Safe Wickers.app/lg_suburbs.json
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:45 +0000  1798 bytes for ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/_CodeSignature/CodeResources
+copying file ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC ... 
+2023-07-05 13:36:45 +0000  132800 bytes for ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/Popover_OC
+copying file ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/Info.plist ... 
+2023-07-05 13:36:45 +0000  791 bytes for ./Payload/Safe Wickers.app/Frameworks/Popover_OC.framework/Info.plist
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/_CodeSignature/CodeResources
+copying file ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos ... 
+2023-07-05 13:36:45 +0000  280080 bytes for ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/Cosmos
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/Info.plist ... 
+784 bytes for ./Payload/Safe Wickers.app/Frameworks/Cosmos.framework/Info.plist
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire ... 
+2023-07-05 13:36:45 +0000  1274208 bytes for ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/Info.plist ... 
+2023-07-05 13:36:45 +0000  789 bytes for ./Payload/Safe Wickers.app/Frameworks/Alamofire.framework/Info.plist
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2023-07-05 13:36:45 +0000  1798 bytes for ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2023-07-05 13:36:45 +0000  947392 bytes for ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/SDWebImage
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/Info.plist ... 
+2023-07-05 13:36:45 +0000  792 bytes for ./Payload/Safe Wickers.app/Frameworks/SDWebImage.framework/Info.plist
+copying file ./Payload/Safe Wickers.app/embedded.mobileprovision ... 
+2023-07-05 13:36:45 +0000  27040 bytes for ./Payload/Safe Wickers.app/embedded.mobileprovision
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/flags.json ... 
+2023-07-05 13:36:45 +0000  4534 bytes for ./Payload/Safe Wickers.app/flags.json
+copying file ./Payload/Safe Wickers.app/Info.plist ... 
+2023-07-05 13:36:45 +0000  1701 bytes for ./Payload/Safe Wickers.app/Info.plist
+copying file ./Payload/Safe Wickers.app/PkgInfo ... 
+8 bytes for ./Payload/Safe Wickers.app/PkgInfo
+copying file ./Payload/Safe Wickers.app/hi.lproj/LaunchScreen.strings ... 
+2023-07-05 13:36:45 +0000  1 bytes for ./Payload/Safe Wickers.app/hi.lproj/LaunchScreen.strings
+2023-07-05 13:36:45 +0000  copying file ./Payload/Safe Wickers.app/hi.lproj/Main.strings ... 
+2023-07-05 13:36:45 +0000  7333 bytes for ./Payload/Safe Wickers.app/hi.lproj/Main.strings
+copying file ./Payload/Safe Wickers.app/hi.lproj/Localizable.strings ... 
+2023-07-05 13:36:45 +0000  6931 bytes for ./Payload/Safe Wickers.app/hi.lproj/Localizable.strings
+2023-07-05 13:36:45 +0000  /usr/bin/ditto exited with 0
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-07-05 13:36:45 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-07-05 13:36:45 +0000  IDEDistributionItem init <DVTFilePath:0x60008d76adf0:'/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Popover_OC.framework'>
+2023-07-05 13:36:45 +0000  IDEDistributionItem init <DVTFilePath:0x60008d76ac30:'/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Cosmos.framework'>
+2023-07-05 13:36:45 +0000  IDEDistributionItem init <DVTFilePath:0x60008d7680e0:'/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/SDWebImage.framework'>
+2023-07-05 13:36:45 +0000  IDEDistributionItem init <DVTFilePath:0x60008d769dc0:'/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app/Frameworks/Alamofire.framework'>
+2023-07-05 13:36:45 +0000  IDEDistributionItem init <DVTFilePath:0x6000c17c1c00:'/var/folders/8d/m6ntztsn67x7hl6c127mfj980000gn/T/XcodeDistPipeline.~~~0YR813/Root/Payload/Safe Wickers.app'>
+2023-07-05 13:36:45 +0000  Processing step: IDEDistributionCreateManifestStep

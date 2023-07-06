@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Safe Wickers.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43</string>
+				<key>dateExpires</key>
+				<string>2023/8/24</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43</string>
+						<key>dateExpires</key>
+						<string>2023/8/24</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2Q4AN7A3N8</string>
+						<key>name</key>
+						<string>JJWorld(Beijing) network technology Co., LTD</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>4.9.1</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43</string>
+						<key>dateExpires</key>
+						<string>2023/8/24</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Cosmos.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2Q4AN7A3N8</string>
+						<key>name</key>
+						<string>JJWorld(Beijing) network technology Co., LTD</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>21.0.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43</string>
+						<key>dateExpires</key>
+						<string>2023/8/24</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Popover_OC.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2Q4AN7A3N8</string>
+						<key>name</key>
+						<string>JJWorld(Beijing) network technology Co., LTD</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>2.2.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D4046CD73EB475C1A5BF2775BE0EAED0DCD48C43</string>
+						<key>dateExpires</key>
+						<string>2023/8/24</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SDWebImage.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2Q4AN7A3N8</string>
+						<key>name</key>
+						<string>JJWorld(Beijing) network technology Co., LTD</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>5.16.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2Q4AN7A3N8.cn.jj.tkstdrt</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2Q4AN7A3N8</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Safe Wickers.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b7b73613-79a2-4e35-b62f-06fba4d7609a</string>
+				<key>dateExpires</key>
+				<string>2024/2/2</string>
+				<key>name</key>
+				<string>JJTkstdrt_Dev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2Q4AN7A3N8</string>
+				<key>name</key>
+				<string>JJWorld(Beijing) network technology Co., LTD</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
