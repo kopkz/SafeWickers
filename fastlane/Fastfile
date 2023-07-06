@@ -24,11 +24,7 @@ platform :ios do
       export_method: "development",
       buildlog_path: "../release",
       output_directory: "../release",
-      export_options: {
-        provisioningProfile: {
-          "cn.jj.tkstdrt" => "JJTkstdrt_Dev",
-        }
-      }
+      export_options: "./exportOptions.plist"
       )  
   end
 end
