@@ -52,6 +52,8 @@ class SearchCollectionViewController: UIViewController, UISearchBarDelegate,UICo
     
 // add logo image to navigationbar
     func addNavBarImage() {
+        
+        
         let navController = navigationController!
         navigationController?.navigationBar.barTintColor = UIColor.red//UIColor(red:0.27, green:0.45, blue:0.58, alpha:1)
         let image = UIImage(named: "titleLogo.png")
